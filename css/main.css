@@ -1,0 +1,79 @@
+.container {
+	margin: 3em auto;
+	width: 600px;
+}
+
+.hidden {
+	display: none;
+}
+
+.left {
+	float: left;
+}
+
+.stack-image {
+	background: url('../images/stack-icon.png') no-repeat center center;
+	width: 200px;
+	height: 200px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin-right: 1em;
+	border-radius: 5px;
+}
+
+.intro {
+	margin-bottom: 1em;
+}
+
+	.stack {
+	clear: both;
+}
+
+.inspiration { 
+	margin-left: 3em;
+}
+
+.result,.answer{
+/*    border: 1px solid black;
+*/  /*  padding-right: 8%;*/
+    padding-top: 8%;
+    margin: 0 auto 1em auto;
+    text-align: center;
+}
+
+.error {
+	background-color: #F78181;
+	padding: 1em;
+}
+
+.pokemonCard{
+    background-image: url('../images/pokemon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+}
+.somethingElse{
+    overflow: auto;
+    clear: both;
+    width: 225px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+.somethingElse dd, .somethingElse dt{
+	display: inline;
+	float: left;
+	
+}
+.somethingElse dt{
+	clear: left;
+    width: 25%;
+    text-align: left;
+    padding-left: 5px;
+}
+.profile_img{
+	-webkit-margin-start: 0px;
+}
+
