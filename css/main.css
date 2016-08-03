@@ -55,19 +55,19 @@
     background-position: center;
     height: 300px;
 }
-.somethingElse{
+.profileImage{
     overflow: auto;
     clear: both;
     width: 225px;
     margin: 0 auto;
     padding-top: 25px;
 }
-.somethingElse dd, .somethingElse dt{
+.profileImage dd, .profileImage dt{
 	display: inline;
 	float: left;
 	
 }
-.somethingElse dt{
+.profileImage dt{
 	clear: left;
     width: 25%;
     text-align: left;

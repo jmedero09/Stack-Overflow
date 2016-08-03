@@ -172,9 +172,9 @@ $(document).ready( function() {
 
 		// zero out results if previous search has run
 
-		$('.answer').hide();
-		
-		$('.result').show();
+		$('.results').html('');
+
+		//$('.result').show();
 
 		// get the value of the tags the user submitted
 
@@ -188,12 +188,7 @@ $(document).ready( function() {
 	$('.inspiration-getter').submit(function(e){
 
 		e.preventDefault();
-		
-		$('.result').html('');
-
-		$('.answer').show();
-
-
+				$('.results').html('');
 		var tags = $(this).find("input[name='answerers']").val();
 
 		getAnswered(tags);
